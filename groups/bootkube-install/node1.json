@@ -1,0 +1,22 @@
+{
+  "id": "node1",
+  "name": "Controller Node",
+  "profile": "bootkube-controller",
+  "selector": {
+    "mac": "00:0c:29:66:c9:e7",
+    "os": "installed"
+  },
+  "metadata": {
+    "domain_name": "node1.domain",
+    "etcd_initial_cluster": "node1=http://node1.domain:2380",
+    "etcd_name": "node1",
+    "k8s_controller_endpoint": "https://node1.domain:443",
+    "k8s_dns_service_ip": "10.3.0.10",
+    "k8s_etcd_endpoints": "http://node1.domain:2379",
+    "k8s_pod_network": "10.2.0.0/16",
+    "k8s_service_ip_range": "10.3.0.0/24",
+    "ssh_authorized_keys": [
+      "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDPaLaK/tfGfc8ttohy6c0zyf5rICh6uwumbX2mcRuF19uQmkKWL9w2X4lGxGz/ZS3idzPcK72G9MYzn8RNzEtjSAPnY+lKTdVxwKno4RVK5oqkLJmtbY8Uz5udYXM/NYpIbS3XFE1LCS4SsBLmgSfLizunmm1flHPZs1t5rIOBXgIi9wBp5ikFgtlGENdsMGXEHfyRYMx8dXydCvXBwHkYP54eVoCyGNkB6r/CySEv+jhkHMAk6aPqBqhdmnjHpeKLJc50DbuCSjEWnu5uKeoFl7SvIeYn7ic72Icb6Lq2Z5oDUTFAZHyU0AZtExH/adlVYF17SbBVvM4kt8SJj1ld lwolf@loco"
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "coreos-install",
+  "name": "CoreOS Install",
+  "profile": "install-reboot",
+  "metadata": {
+    "coreos_channel": "alpha",
+    "coreos_version": "1153.0.0",
+    "ignition_endpoint": "http://bootcfg.domain:8080/ignition",
+    "baseurl": "http://bootcfg.domain:8080/assets/coreos",
+    "ssh_authorized_keys": [
+      ""
+    ]
+  }
+}
